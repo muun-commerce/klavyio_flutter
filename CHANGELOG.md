@@ -1,17 +1,3 @@
-# Customized Klaviyo Flutter implementation
-
-This repository contains a modified version of [klaviyo_flutter](https://github.com/drybnikov/klaviyo_flutter) that handles iOS push notifications, deep links, and more.
-
-### Changes
-- Added a Flutter stream gate for iOS push notifications to catch foreground and interaction messages.
-- Blocked Klaviyo deep link handling due to incompatibilities with the go_router package.
-- Added $opened_event dispatching on the Flutter side, which is handled by foreground and interaction handlers.
-- There are no changes to the Android side.
-
-**Note**: This is a work in progress, and more code is expected.
-
----
-
 # Changelog
 
 ## 0.1.4
